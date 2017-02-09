@@ -1,0 +1,29 @@
+{
+  "name": "loggd",
+  "version": "1.0.0",
+  "description": "a really fast and cool local database that saves data in JSON format",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "keywords": [
+    "local",
+    "db",
+    "loggd",
+    "database",
+    "json",
+    "storage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candh/loggd.git"
+  },
+  "author": "candh",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
