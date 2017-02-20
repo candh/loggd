@@ -43,7 +43,7 @@ loggd.save({ username: "John", type: "Human" }, (err, data)=>{
 ##Reading Data:
 Entire File
 
-**`loggd.save(callback)`**
+**`loggd.read(callback)`**
 ```
 loggd.read((err, data) => {
     if (err) throw err;
