@@ -1,4 +1,5 @@
-#loggd
+# loggd
+
 A simple local [JSON](http://www.json.org/) database made with NodeJS, for NodeJS. I made this because I needed a simple interface to save and retrieve data from a JSON file. I looked up repos for doing that on github but I didn't like them because they were missing a function a two that I wanted... So I decided to make my own. I'm gonna use it for dev. purposes... Because I mean you can always use MongoDB for your live site 😊
 
 
@@ -19,18 +20,18 @@ A simple local [JSON](http://www.json.org/) database made with NodeJS, for NodeJ
 ```
 
 
-#Installation 
+# Installation 
 
 `npm install loggd --save`
 
-#Usage
+# Usage
 
 Well, first of all, import loggd in your project and then initiate the function by giving it a path to your JSON file, like this:
 
 `const loggd = require("loggd")("./your/database/path/database.json");`
 
 
-##Saving Data:
+## Saving Data:
 
 **`loggd.save(data, callback)`**
 ```
@@ -40,7 +41,7 @@ loggd.save({ username: "John", type: "Human" }, (err, data)=>{
 });
 ```
 
-##Reading Data:
+## Reading Data:
 Entire File
 
 **`loggd.read(callback)`**
@@ -52,7 +53,7 @@ loggd.read((err, data) => {
 ```
 
 
-##Find Data
+## Find Data
 All the matching objects, based on the given criteria, in the file:
 
 **`loggd.find(criteria, callback)`**
@@ -75,7 +76,7 @@ loggd.findOne({username: "John"}, (err, data) => {
 ```
 
 
-##Update Data 
+## Update Data 
 All the matching objects, based on the given criteria, in the file:
 
 **`loggd.update(criteria, updatedData, callback)`**
@@ -98,10 +99,10 @@ loggd.updateOne({username: "John"}, {username: "Haider"}, (err, data) => {
 ```
 
 
-###hehehe, listen to this:
+### hehehe, listen to this:
 You can also `findOne()` and then call `update()` on the result. I'm just sayin bro 😉
 
-##Remove Data:
+## Remove Data:
 All the matching objects, based on the given criteria, in the file
 
 **`loggd.remove(criteria, callback)`**
@@ -113,9 +114,9 @@ loggd.remove({username: "Haider"}, (err, data) => {
 ```
 
 
-#Examples
+# Examples
 
-###Removing all the objects from the database
+### Removing all the objects from the database
 
 ```
 loggd.remove({}, (err, data) => {
@@ -127,18 +128,18 @@ loggd.remove({}, (err, data) => {
 Yeah I mean I don't have to add more example I just wanted to show you that you can do this too. Dat MongoDB style nawmsayin?
 
 
-#Tests
+# Tests
 
 `npm test`
 
-#Contribution
+# Contribution
 - Clone the repo
 - Add your method
 - Test it
 - Submit a PR
 - Happy Coding 😊
 
-#Wait, who made it? Not that I care or whatever but still?
+# Wait, who made it? Not that I care or whatever but still?
 By [@candhforlife](http://twitter.com/candhforlife) mostly seen at COMSATS Lahore doing CS stuff to get a CS degree
 
 
