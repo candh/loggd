@@ -133,11 +133,7 @@ Yeah I mean I don't have to add more example I just wanted to show you that you 
 `npm test`
 
 # Contribution
-- Clone the repo
-- Add your method
-- Test it
-- Submit a PR
-- Happy Coding 😊
+See `CONTRIBUTING.md`
 
 # Wait, who made it? Not that I care or whatever but still?
 By [@candhforlife](http://twitter.com/candhforlife) mostly seen at COMSATS Lahore doing CS stuff to get a CS degree
