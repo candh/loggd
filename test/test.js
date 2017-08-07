@@ -33,7 +33,9 @@ describe('Loggd Testing\n-------------------------', function() {
             db.find({})
                 .then((data) => {
                     data.removeAll()
-                    done()
+                        .then(() => {
+                            done()        
+                        })
                 })
         })
     })
