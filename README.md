@@ -1,141 +1,57 @@
-# loggd
+# [loggd](https://candh.gitbooks.io/loggd)
 
-A simple local [JSON](http://www.json.org/) database made with NodeJS, for NodeJS. I made this because I needed a simple interface to save and retrieve data from a JSON file. I looked up repos for doing that on github but I didn't like them because they were missing a function a two that I wanted... So I decided to make my own. I'm gonna use it for dev. purposes... Because I mean you can always use MongoDB for your live site 😊
+Listen, you just want to log something? or might just want to save and retrieve [JSON](http://www.json.org/) and perform basic operations on the data, like a database? Don't want to learn a big library to do that? You're in luck! Because loggd is aimed to solve all of these problems for you! I rewrote the whole library because I felt like the previous one was too cluttered with useless methods and was making things too complicated, so here's another shot. This time though, it's truly simple. Let me show you 😊
 
-
-```
+```json
 [
   {
-    "_id": "5a20dbc7-d48b-44c3-b44d-6f0c37edfe6f",
-    "type": "Human",
-    "username": "Kanye",
-    "albums" : [
-        "The Life of Pablo",
-        "Yeezus",
-        "Graduation",
-        "My Beautiful Dark Twisted Fantasy"
-    ]
+    "loggd": {
+      "what": "A simple JSON database without complicating stuff",
+      "why?": "It provides a simple interface to interact with a JSON file, CRUD, you got it",
+      "isCool": true,
+      "nestedObjects?": {
+        "You": "Got It!"
+      },
+      "arrays?": [
+        "No",
+        "Problem"
+      ]
+    },
+    "_id": "49c6f6ee-5805-4499-95e0-53bfc0bdc7ad"
   }
 ]
 ```
 
 
-# Installation 
+### Installation 
 
-`npm install loggd --save`
-
-# Usage
-
-Well, first of all, import loggd in your project and then initiate the function by giving it a path to your JSON file, like this:
-
-`const loggd = require("loggd")("./your/database/path/database.json");`
-
-
-## Saving Data:
-
-**`loggd.save(data, callback)`**
-```
-loggd.save({ username: "John", type: "Human" }, (err, data)=>{
-    if(err) throw err;
-    console.log(data);
-});
+```bash
+$ npm install loggd --save
 ```
 
-## Reading Data:
-Entire File
+<br>
 
-**`loggd.read(callback)`**
-```
-loggd.read((err, data) => {
-    if (err) throw err;
-    console.log(data)
-});
-```
+For API documentation, detailed explanation and examples:
+# [Read The Docs](https://candh.gitbooks.io/loggd)
 
 
-## Find Data
-All the matching objects, based on the given criteria, in the file:
+### Tests
 
-**`loggd.find(criteria, callback)`**
-```
-loggd.find({username: "John"}, (err, data) => {
-    if (err) throw err;
-    console.log(data)
-});
+```bash
+$ npm test
 ```
 
-
-First occurence of the the matching object, based on the given criteria, in the file:
-
-**`loggd.findOne(criteria, callback)`**
-```
-loggd.findOne({username: "John"}, (err, data) => {
-    if (err) throw err;
-    console.log(data)
-});
-```
-
-
-## Update Data 
-All the matching objects, based on the given criteria, in the file:
-
-**`loggd.update(criteria, updatedData, callback)`**
-```
-loggd.update({username: "John"}, {username: "Haider"}, (err, data) => {
-    if (err) throw err;
-    console.log(data)
-});
-```
-
-
-First occurence of the the matching object, based on the given criteria, in the file:
-
-**`loggd.updateOne(criteria, updatedData, callback)`**
-```
-loggd.updateOne({username: "John"}, {username: "Haider"}, (err, data) => {
-    if (err) throw err;
-    console.log(data)
-});
-```
-
-
-### hehehe, listen to this:
-You can also `findOne()` and then call `update()` on the result. I'm just sayin bro 😉
-
-## Remove Data:
-All the matching objects, based on the given criteria, in the file
-
-**`loggd.remove(criteria, callback)`**
-```
-loggd.remove({username: "Haider"}, (err, data) => {
-    if (err) throw err;
-    console.log(data)
-});
-```
-
-
-# Examples
-
-### Removing all the objects from the database
-
-```
-loggd.remove({}, (err, data) => {
-    if (err) throw err;
-    console.log(data)
-});
-```
-
-Yeah I mean I don't have to add more example I just wanted to show you that you can do this too. Dat MongoDB style nawmsayin?
-
-
-# Tests
-
-`npm test`
-
-# Contribution
+### Contribution
 See `CONTRIBUTING.md`
 
-# Wait, who made it? Not that I care or whatever but still?
+### Changelog
+Added in version 2.0.0
+
+**v2.0.0**
+* **MAJOR API CHANGES**, If your project is using a previous version and you update this package, **everything will break!** I'm really sorry! But this is the cleanest version yet. Please [read the docs](https://candh.gitbooks.io/loggd/). If you liked the previous version, You'll ❤️ this one!
+
+
+### Wait, who made it? Not that I care or whatever but still?
 By [@candhforlife](http://twitter.com/candhforlife) mostly seen at COMSATS Lahore doing CS stuff to get a CS degree
 
 

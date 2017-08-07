@@ -1,1 +1,66 @@
-[]
+[
+	{
+		"username": "Vito Corleone",
+		"type": "Human",
+		"_id": "ffa63387-be7a-4d02-b67f-6a9f15abd5aa"
+	},
+	{
+		"username": "Tom Hagen",
+		"type": "Human",
+		"profession": "Lawyer",
+		"_id": "96d9ab31-f301-4033-bbab-e01d63aea566"
+	},
+	{
+		"username": "Micheal Corleone",
+		"type": "Human",
+		"_id": "0d79cdc4-8b8a-4f47-8de8-92951f5270a3"
+	},
+	{
+		"username": "Kay",
+		"type": "Human",
+		"_id": "20607739-1c27-4fd4-bc1c-4221fc7d2cd2"
+	},
+	{
+		"username": "Kanye West",
+		"type": "Human",
+		"profession": "Artist",
+		"albums": [
+			"The College Dropout",
+			"Late Registration",
+			"Graduation"
+		],
+		"_id": "efa4b5bd-6210-4487-82fb-bc94c56c363e"
+	},
+	{
+		"username": "Jay Z",
+		"type": "Human",
+		"profession": "Artist",
+		"albums": [
+			"4:44"
+		],
+		"_id": "df81fb6c-530e-4599-8659-df35ca164913"
+	},
+	{
+		"username": "Frank",
+		"type": "Animal",
+		"skills": [
+			"loving",
+			"loyalty",
+			"Just being amazing"
+		],
+		"legs": 4,
+		"_id": "bcfeb772-db01-4f0c-9985-c059b6236b0e",
+		"cute": true
+	},
+	{
+		"username": "Stanley",
+		"type": "Animal",
+		"skills": [
+			"hating",
+			"now idea what he's doing"
+		],
+		"legs": 4,
+		"_id": "69cf0759-da37-4760-bc4d-451e4c7474cd",
+		"cute": true
+	}
+]
