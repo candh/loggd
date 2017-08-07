@@ -1,4 +1,7 @@
 # [loggd](https://candh.gitbooks.io/loggd)
+[![Travis](https://img.shields.io/travis/candh/loggd.svg)](https://travis-ci.org/candh/loggd)
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/loggd)
+[![npm](https://img.shields.io/npm/l/loggd.svg)](https://www.npmjs.com/package/loggd)
 
 Listen, you just want to log something? or might just want to save and retrieve [JSON](http://www.json.org/) and perform basic operations on the data, like a database? Don't want to learn a big library to do that? You're in luck! Because loggd is aimed to solve all of these problems for you! I rewrote the whole library because I felt like the previous one was too cluttered with useless methods and was making things too complicated, so here's another shot. This time though, it's truly simple. Let me show you 😊
 
