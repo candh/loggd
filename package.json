@@ -1,8 +1,8 @@
 {
   "name": "loggd",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "a really fast and cool local database that saves data in JSON format",
-  "main": "./lib/index.js",
+  "main": "./lib/loggd.js",
   "scripts": {
     "test": "mocha test/test.js"
   },
@@ -21,10 +21,10 @@
   "author": "candh",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^3.2.0"
+    "mocha": "^3.5.3"
   },
   "dependencies": {
-    "async": "^2.5.0",
-    "underscore": "^1.8.3"
+    "async": "^2.6.1",
+    "underscore": "^1.9.1"
   }
 }

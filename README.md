@@ -2,15 +2,16 @@
 [![Travis](https://img.shields.io/travis/candh/loggd.svg)](https://travis-ci.org/candh/loggd)
 [![npm](https://img.shields.io/npm/v/loggd.svg)](https://www.npmjs.com/package/loggd)
 [![npm](https://img.shields.io/npm/l/loggd.svg)](https://www.npmjs.com/package/loggd)
+[![GitHub license](https://img.shields.io/github/license/candh/loggd.svg)](https://github.com/candh/loggd/blob/master/LICENSE.md)
 
-Listen, you just want to log something? or might just want to save and retrieve [JSON](http://www.json.org/) and perform basic operations on the data, like a database? Don't want to learn a big library to do that? You're in luck! Because loggd is aimed to solve all of these problems for you! I rewrote the whole library because I felt like the previous one was too cluttered with useless methods and was making things too complicated, so here's another shot. This time though, it's truly simple. Let me show you 😊
+Listen, you just want to log something? or might just want to save and retrieve [JSON](http://www.json.org/) and perform basic operations on the data, like a database? Don't want to learn a big library to do that? You're in luck! Because loggd is aimed to solve all of these problems for you! Let me show you 😊
 
 ```json
 [
   {
     "loggd": {
       "what": "A simple JSON database without complicating stuff",
-      "why?": "It provides a simple interface to interact with a JSON file, CRUD, you got it",
+      "why?": "It provides a simple interface to interact with a JSON file. CRUD, you got it",
       "isCool": true,
       "nestedObjects?": {
         "You": "Got It!"
@@ -45,16 +46,23 @@ $ npm test
 ```
 
 ### Contribution
-See `CONTRIBUTING.md`
+See [`CONTRIBUTING.md`](https://github.com/candh/loggd/blob/master/CONTRIBUTING.md)
 
 ### Changelog
 Added in version 2.0.0
+
+**v2.1.0**
+* 🎉 new method: clear() - Clears the database file
+* Replaced stupid docstrings with jsdocs. should display a litle bit of help on your fancy editors now. 
+* Better tests. Really. (i think, [i mean you can never be THAT sure..](https://pbs.twimg.com/media/Ci9dn7vWYAAGbuV.jpg))
+* Updated dependencies
+* Moved db dir to test
+* Refactoring
+* Loggd is a class now. (Nothing for you to worry about)
 
 **v2.0.0**
 * **MAJOR API CHANGES**, If your project is using a previous version and you update this package, **everything will break!** I'm really sorry! But this is the cleanest version yet. Please [read the docs](https://candh.gitbooks.io/loggd/). If you liked the previous version, You'll ❤️ this one!
 
 
-### Wait, who made it? Not that I care or whatever but still?
+### Wait, who made it?
 By [@candhforlife](http://twitter.com/candhforlife) mostly seen at COMSATS Lahore doing CS stuff to get a CS degree
-
-
