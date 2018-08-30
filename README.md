@@ -52,7 +52,7 @@ Added in version 2.0.0
 
 **v2.1.0**
 * 🎉 new method: clear() - Clears the database file
-* Replaced stupid docstrings with jsdocs. should display a litle bit of help on your fancy editors now. 
+* Replaced stupid docstrings with jsdocs. should display a little bit of help on your fancy editors now. 
 * Better tests. Really. (i think, [i mean you can never be THAT sure..](https://pbs.twimg.com/media/Ci9dn7vWYAAGbuV.jpg))
 * Updated dependencies
 * Moved db dir to test
