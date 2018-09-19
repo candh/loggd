@@ -1,5 +1,6 @@
 # [loggd](https://candh.gitbooks.io/loggd)
 [![Travis](https://img.shields.io/travis/candh/loggd.svg)](https://travis-ci.org/candh/loggd)
+[![npm](https://img.shields.io/npm/dm/loggd.svg)](https://www.npmjs.com/package/loggd)
 [![npm](https://img.shields.io/npm/v/loggd.svg)](https://www.npmjs.com/package/loggd)
 [![npm](https://img.shields.io/npm/l/loggd.svg)](https://www.npmjs.com/package/loggd)
 
