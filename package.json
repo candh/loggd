@@ -21,7 +21,7 @@
   "author": "candh",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^3.5.3"
+    "mocha": "^6.1.4"
   },
   "dependencies": {
     "async": "^2.6.1",
