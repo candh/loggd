@@ -1,4 +1,4 @@
-# [loggd](https://candh.gitbooks.io/loggd)
+# [loggd](https://haider.gitbook.io/loggd/)
 
 [![Travis](https://img.shields.io/travis/candh/loggd.svg)](https://travis-ci.org/candh/loggd)
 [![npm](https://img.shields.io/npm/dm/loggd.svg)](https://www.npmjs.com/package/loggd)
@@ -34,7 +34,7 @@ $ npm install loggd --save
 
 For API documentation, detailed explanation and examples:
 
-# [Read The Docs](https://candh.gitbooks.io/loggd)
+# [Read The Docs](https://haider.gitbook.io/loggd/)
 
 ### Tests
 
@@ -67,7 +67,7 @@ Added in version 2.0.0
 
 **v2.0.0**
 
-- **MAJOR API CHANGES**, If your project is using a previous version and you update this package, **everything will break!** I'm really sorry! But this is the cleanest version yet. Please [read the docs](https://candh.gitbooks.io/loggd/). If you liked the previous version, You'll ❤️ this one!
+- **MAJOR API CHANGES**, If your project is using a previous version and you update this package, **everything will break!** I'm really sorry! But this is the cleanest version yet. Please [read the docs](https://haider.gitbook.io/loggd/). If you liked the previous version, You'll ❤️ this one!
 
 ### Wait, who made it?
 
