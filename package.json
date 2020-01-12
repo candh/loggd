@@ -1,6 +1,6 @@
 {
   "name": "loggd",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "a really fast and cool local database that saves data in JSON format",
   "main": "./lib/loggd.js",
   "scripts": {
