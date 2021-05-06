@@ -25,6 +25,6 @@
   },
   "dependencies": {
     "async": "^2.6.1",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   }
 }
